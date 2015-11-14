@@ -12,10 +12,10 @@ public class CoolWeatherOpenHelper extends SQLiteOpenHelper {
 *    Province表建表语句
 */
 
-public static final String CREATE_PROVINCE = "create tabke Orivubce("
-+ "id integer primary key autoincrement,"+
-  "province_name text,"+
-  "province_code text)";
+public static final String CREATE_PROVINCE = "create table PROVINCE("
++ "id integer primary key autoincrement,"
++ "province_name text,"
++ "province_code text)";
 
 /**
 *    City表建表语句
