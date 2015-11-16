@@ -61,6 +61,7 @@ public class WeatherActivity extends Activity implements OnClickListener {
 	 */
 	private Button refreshWeather;
 
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
